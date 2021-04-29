@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+.home{
+  background-color :#282c34;
+  color: aqua;
+
+}
+.home button{
+  float: right;
+
+}
+.home h2{
+  text-shadow: 1px 1px 1px #222;
+  clear: both;
+}

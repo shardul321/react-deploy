@@ -1,23 +1,37 @@
-import logo from './logo.svg';
 import './App.css';
-
+import LoginPage from './components/LoginPage';
+import { Route, Switch } from 'react-router-dom';
+import Home from "./components/Home";
+import Contact from './components/Contact';
+import FireStoreData from "./components/FireStoreData";
+import Storage from "./components/Storage";
+import { useEffect } from 'react';
+import firebase from"./firebase/firebase";
 function App() {
+
+  useEffect(() => {
+    const msg = firebase.messaging();
+    msg.requestPermission()
+    .then(() => {
+      return msg.getToken();
+    })
+    .then((token) => {
+      console.log("Token : ", token);
+    })
+    .catch((err) => {
+      console.log(err);
+    });
+  }, [])
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Switch>
+        <Route exact path="/" component={LoginPage} />
+        <Route path="/home" component={Home} />
+        <Route path="/realtimedb" component={Contact} />
+        <Route path="/firestore" component={FireStoreData} />
+        <Route path="/storage" component={Storage} />
+
+      </Switch>
     </div>
   );
 }
