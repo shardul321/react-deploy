@@ -3,10 +3,11 @@ this.addEventListener("install", (event) => {
     event.waitUntil(
         caches.open(cacheData).then((cache) => {
             cache.addAll([
-                '/static/js/main.chunk.js',
-                '/static/js/0.chunk.js',
-                '/static/js/bundle.js',
+                '/static/js/D:/main.chunk.js',
+                '/static/js/D:/0.chunk.js',
+                '/static/js/D:/bundle.js',
                 '/static/css/main.chunk.css',
+                '/static/media/fontawesome-webfont.20fd1704.woff2',
                 '/bootstrap.min.css',
                 '/index.html',
                 '/',
