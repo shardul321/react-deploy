@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-deploy/static/css/main.7b63ef1d.chunk.css",
+    "main.js": "/react-deploy/static/js/main.1d4b81ef.chunk.js",
+    "main.js.map": "/react-deploy/static/js/main.1d4b81ef.chunk.js.map",
+    "runtime-main.js": "/react-deploy/static/js/runtime-main.d6e5b180.js",
+    "runtime-main.js.map": "/react-deploy/static/js/runtime-main.d6e5b180.js.map",
+    "static/css/2.72fa42e9.chunk.css": "/react-deploy/static/css/2.72fa42e9.chunk.css",
+    "static/js/2.116c7bf4.chunk.js": "/react-deploy/static/js/2.116c7bf4.chunk.js",
+    "static/js/2.116c7bf4.chunk.js.map": "/react-deploy/static/js/2.116c7bf4.chunk.js.map",
+    "static/js/3.0606e793.chunk.js": "/react-deploy/static/js/3.0606e793.chunk.js",
+    "static/js/3.0606e793.chunk.js.map": "/react-deploy/static/js/3.0606e793.chunk.js.map",
+    "index.html": "/react-deploy/index.html",
+    "static/css/2.72fa42e9.chunk.css.map": "/react-deploy/static/css/2.72fa42e9.chunk.css.map",
+    "static/css/main.7b63ef1d.chunk.css.map": "/react-deploy/static/css/main.7b63ef1d.chunk.css.map",
+    "static/js/2.116c7bf4.chunk.js.LICENSE.txt": "/react-deploy/static/js/2.116c7bf4.chunk.js.LICENSE.txt",
+    "static/media/font-awesome.min.css": "/react-deploy/static/media/fontawesome-webfont.f691f37e.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d6e5b180.js",
+    "static/css/2.72fa42e9.chunk.css",
+    "static/js/2.116c7bf4.chunk.js",
+    "static/css/main.7b63ef1d.chunk.css",
+    "static/js/main.1d4b81ef.chunk.js"
+  ]
+}
